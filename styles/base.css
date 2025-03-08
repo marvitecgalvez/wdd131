@@ -33,7 +33,7 @@ nav a:hover {
 
 main {
     display: grid;
-    width: 70%;
+    max-width: 70%;
     align-content: center;
 }
 
