@@ -1,0 +1,42 @@
+:root {
+    --primary-color: #022b3a;
+    --secundary-color: #1f7a8c ;
+    --third-color: #bfdbf7;
+    --fourth-color: hsl(66, 100%, 94%);
+}
+
+* {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    background-color: var(--primary-color);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul a {
+    display: flex;
+    text-decoration: none;
+    color: var(--fourth-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+main {
+    display: grid;
+    width: 70%;
+    align-content: center;
+}
+
+section img {
+    width: 150px;
+}
