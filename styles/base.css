@@ -33,10 +33,36 @@ nav a:hover {
 
 main {
     display: grid;
+    grid-template-columns: 2fr 1fr;
     max-width: 70%;
     align-content: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
 section img {
     width: 150px;
+}
+
+section {
+    margin: 1rem;
+    border: 3px solid black;
+    border-radius: 14px;
+}
+
+h2 {
+    background-color: #1f7a8c;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.card {
+    /*padding: 1rem;*/
+    /*display: grid;*/
+    /*grid-template-columns: 2fr 1fr;*/
+    /*border: 3px solid black;*/
+    /*padding: 1rem;*/
+    /*margin: 1rem;*/
 }
