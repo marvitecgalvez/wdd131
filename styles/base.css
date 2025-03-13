@@ -12,15 +12,20 @@
 nav {
     display: flex;
     background-color: var(--primary-color);
+    
 }
 
 nav ul {
     display: flex;
     list-style-type: none;
-    ;
+    align-content: center;
 }
 
-nav ul a {
+nav li {
+    flex: 1 1 auto;
+}
+
+nav a {
     display: flex;
     text-decoration: none;
     color: white;
