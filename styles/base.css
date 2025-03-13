@@ -2,7 +2,7 @@
     --primary-color: #022b3a;
     --secundary-color: #1f7a8c ;
     --third-color: #bfdbf7;
-    --fourth-color: hsl(66, 100%, 94%);
+    --fourth-color: #fdf364;
 }
 
 * {
@@ -17,12 +17,13 @@ nav {
 nav ul {
     display: flex;
     list-style-type: none;
+    ;
 }
 
 nav ul a {
     display: flex;
     text-decoration: none;
-    color: var(--fourth-color);
+    color: white;
     padding: 1rem;
     text-align: center;
 }
@@ -51,11 +52,27 @@ section {
     border-radius: 14px;
 }
 
+h1 {
+    background-color: var(--secundary-color);
+    padding: 2rem;
+    text-align: center;
+}
+
 h2 {
-    background-color: #1f7a8c;
+    background-color: var(--secundary-color);
     color: white;
     text-align: center;
     padding: 1rem;
+}
+
+footer {
+    background-color: var(--secundary-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+.resalt {
+    color: var(--fourth-color);
 }
 
 .card {
