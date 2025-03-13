@@ -4,8 +4,8 @@ const list = document.querySelector('list');
 
 
 
-button.addEventListener('clic', function() {
-    if (input.value.trim() !== '') {
+button.addEventListener('click', function() {
+    //if (input.value.trim() !== '') {
 
 
         const li = document.createElement('li');
@@ -22,11 +22,11 @@ button.addEventListener('clic', function() {
         input.value = '';
 
         input.focus();
-    }
+    //}
 
-    else {
-        input.focus();
-    }
+    //else {
+        //input.focus();
+    //}
 });
 
 deleteButton.addEventListener('click', function () {
