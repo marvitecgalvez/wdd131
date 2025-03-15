@@ -12,10 +12,10 @@ currentyear.innerHTML = `${today.getFullYear()}`;
 
 
 
-/*lastModified.innerHTML = `${today.getTime()}`;*/
+lastModified.innerHTML = document.lastModified;
 
 
-lastModified.innerHTML = `${new Intl.DateTimeFormat(
+/*lastModified.innerHTML = `${new Intl.DateTimeFormat(
 	"en-UK",
 	{
 		timeStyle: "medium"
@@ -27,4 +27,4 @@ new Intl.DateTimeFormat(
 	{
 		dateStyle: "short"
 	}
-).format(nowtime)}`;
+).format(nowtime)}`;*/
