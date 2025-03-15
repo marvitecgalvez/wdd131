@@ -3,10 +3,12 @@
     --secundary-color: #1f7a8c ;
     --third-color: #bfdbf7;
     --fourth-color: #fdf364;
+    --font-1: 'Inter';
+    --font-2: 'Lora';
 }
 
 * {
-    width: 100%;
+    margin: 0;
 }
 
 nav {
@@ -16,6 +18,7 @@ nav {
 }
 
 nav ul {
+    width: 100%;
     display: flex;
     list-style-type: none;
     align-content: center;
@@ -47,27 +50,55 @@ main {
     padding: 1rem;
 }
 
-section img {
-    width: 150px;
-}
-
 section {
     margin: 1rem;
     border: 3px solid black;
-    border-radius: 14px;
+    border-radius: 10px;
+}
+
+
+img {
+    width: 150px;
+
+}
+
+.me-img {
+    float: right;
+}
+
+.flag-img {
+    float: left;
+}
+
+figure {
+    text-align: center;
+    align-content: center;
+
+}
+
+section p {
+    font-family: var(--font-2);
+    padding: 1rem;
 }
 
 h1 {
+    font-family: var(--font-1);
     background-color: var(--secundary-color);
     padding: 2rem;
     text-align: center;
 }
 
 h2 {
+    font-family: var(--font-1);
     background-color: var(--secundary-color);
     color: white;
     text-align: center;
     padding: 1rem;
+}
+
+h3 {
+    border-bottom: 1px solid black;
+    text-align: center;
 }
 
 footer {
@@ -85,6 +116,9 @@ footer {
     /*display: grid;*/
     /*grid-template-columns: 2fr 1fr;*/
     /*border: 3px solid black;*/
-    /*padding: 1rem;*/
     /*margin: 1rem;*/
+}
+
+.flag {
+    display: flex;
 }
