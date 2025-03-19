@@ -74,7 +74,9 @@ nav a {
     padding: 1rem;
 }
 
-
+/*.hideh1 {
+    display: none;
+}*/
 
 .princ {
     background-color: var(--primary-color);
@@ -128,34 +130,9 @@ nav a {
 	display: block;
 }
 
-
-
-@media (min-width: 640px) {
-    .princ {
-
-        color: var(--color1);
-        display: flex;
-    }
-
-    nav ul {
-        display: flex;
-        justify-content: space-evenly;
-        
-    }
-
-	.navigation {
-		flex-direction: row;
-	}
-
-	.navigation a {
-		display: block;
-		flex: 1 1 100%;
-	}
-    
-
-    #menu {
-        display: none;
-    }
-
-
+.open h1 {
+    display: none;
 }
+
+
+
