@@ -1,6 +1,8 @@
 :root {
-    --color1: white;
-    --color2: rgb(162, 203, 255);
+    --primary-color: #022b3a;
+    --secundary-color: #1f7a8c ;
+    --third-color: #bfdbf7;
+    --fourth-color: #fdf364;
     --font1: 'Lora';
     --font2: 'Raleway'
 }
@@ -15,20 +17,38 @@ h1, h2 {
     font-family: var(--font1);
 }
 
+h2 {
+    text-align: center;
+}
+
 figcaption, p, a {
     font-family: var(--font2);
+    text-align: center;
 }
 
 main { 
     max-width: 850px;
     margin: 0 auto;
-  }
+}
 
+footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+}
 
+.resalt {
+    color: var(--fourth-color);
+}
+
+p {
+    color: var(--third-color);
+}
 
 h1 {
     display: block;
     padding: 0.6rem;
+    color: var(--third-color);
 }
 
 ul {
@@ -50,15 +70,15 @@ ul {
 nav a {
     display: flex;
     text-decoration: none;
-    color: var(--color1);
+    color: var(--third-color);
     padding: 1rem;
 }
 
 
 
 .princ {
-    background-color: rgb(67, 69, 184);
-    color: var(--color1);
+    background-color: var(--primary-color);
+    color: var(--third-color);
     
 }
 
@@ -71,9 +91,16 @@ nav a {
 }
 
 .navigation a:hover {
-	background-color: var(--color2);
+	background-color: var(--secundary-color);
 	color: #333;
 	font-weight: 700;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 25px;
+    place-items: center;
 }
 
 #menu {
@@ -89,6 +116,7 @@ nav a {
 #menu::before {
     content: "☰";
     float: right;
+    color: var(--third-color);
 }
 
 #menu.open::before {
@@ -104,7 +132,7 @@ nav a {
 
 @media (min-width: 640px) {
     .princ {
-        background-color: rgb(67, 69, 184);
+
         color: var(--color1);
         display: flex;
     }
