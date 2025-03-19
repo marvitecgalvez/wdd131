@@ -1,0 +1,133 @@
+:root {
+    --color1: white;
+    --color2: rgb(162, 203, 255);
+    --font1: 'Lora';
+    --font2: 'Raleway'
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1, h2 {
+    font-family: var(--font1);
+}
+
+figcaption, p, a {
+    font-family: var(--font2);
+}
+
+main { 
+    max-width: 850px;
+    margin: 0 auto;
+  }
+
+
+
+h1 {
+    display: block;
+    padding: 0.6rem;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    color: var(--color1);
+    padding: 1rem;
+}
+
+
+
+.princ {
+    background-color: rgb(67, 69, 184);
+    color: var(--color1);
+    
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+.navigation a:hover {
+	background-color: var(--color2);
+	color: #333;
+	font-weight: 700;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+    float: right;
+}
+
+#menu.open::before {
+    content: "❌";
+}
+
+
+.open a {
+	display: block;
+}
+
+
+
+@media (min-width: 640px) {
+    .princ {
+        background-color: rgb(67, 69, 184);
+        color: var(--color1);
+        display: flex;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+    
+
+    #menu {
+        display: none;
+    }
+
+
+}
