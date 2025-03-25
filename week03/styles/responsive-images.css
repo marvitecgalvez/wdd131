@@ -1,0 +1,10 @@
+* {
+    width: 100%;
+    width: auto;
+}
+
+.her img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
