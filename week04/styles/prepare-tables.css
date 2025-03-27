@@ -1,0 +1,44 @@
+:root {
+    --border:lightseagreen;
+    --zebra: rgb(229, 241, 241);
+    --backtittle1: #000;
+    --backtittle2: #777;
+    --colortitlle: #fff;
+    --borderall: 1px solid #000;
+}
+
+* {
+    text-align: center;
+    align-content: center;
+}
+
+table {
+    margin: 20px;
+    border: var(--borderall);
+    border-collapse: collapse;
+}
+
+caption {
+    caption-side: bottom;
+    font-size: medium;
+    padding: 0.5rem;
+}
+
+td, th {
+    border: var(--borderall);
+    padding: 5px 20px;
+}
+
+tbody tr:nth-child(even) {
+    background: var(--zebra);
+}
+
+thead {
+    color: var(--colortitlle);
+    background: var(--backtittle2);
+
+    th:nth-of-type(1) {
+        padding: 1rem;
+        background: var(--backtittle1);
+    }
+}
