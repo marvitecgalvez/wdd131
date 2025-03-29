@@ -1,0 +1,21 @@
+main {
+    display: block;
+    width: 400px;
+}
+
+img {
+    width: 100%;
+    background: #000;
+    animation: fade 10s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
