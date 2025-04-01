@@ -13,11 +13,6 @@
     box-sizing: border-box;
 }
 
-/*main {
-    display: block;
-    position: ;
-}*/
-
 .icon {
     width: 70px;
 }
@@ -166,9 +161,6 @@ footer {
         grid-row-end: 4;
         height: 165px;
     }
-
-
-
     
     footer {
         display: grid;
