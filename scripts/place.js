@@ -18,8 +18,8 @@ lastModified.innerHTML = document.lastModified;
 //Windchill Calcuator
 
 const windDisplay = document.querySelector("#windchill");
-let temperature = document.querySelector("#temperature")
-let windSpeed = document.querySelector("#windspeed")
+let temperature = document.getElementById("temperature")
+let windSpeed = document.getElementById("windspeed")
 
 
 function calculateWindChill(temperature, windSpeed) {
