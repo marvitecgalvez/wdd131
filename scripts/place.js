@@ -16,7 +16,7 @@ lastModified.innerHTML = document.lastModified;
 
 
 //Windchill Calcuator
-/*
+
 const windDisplay = document.querySelector("#windchill");
 let temperature = document.getElementById("temperature")
 let windSpeed = document.getElementById("windspeed")
@@ -41,4 +41,4 @@ if (temperature <= 10 && windSpeed > 4.8) {
   windDisplay.innerHTML = `${windChill} °C`;
 } else {
   windDisplay.innerHTML = `N/A`;
-}*/
+}
