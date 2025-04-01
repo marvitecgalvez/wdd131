@@ -53,11 +53,10 @@ article {
     justify-content: center;
     background-color: var(--color3);
     padding: 1rem;
-    max-width: 300px;
 }
 
 p {
-    padding: 1rem;
+    padding: 0.5rem;
     font-family: var(--font2);
 }
 
@@ -94,7 +93,7 @@ footer {
     text-align: center;
 }
 
-@media (min-width:640px) {
+@media (min-width:705px) {
     .hero {
         display: block;
         position: absolute;
@@ -165,7 +164,7 @@ footer {
         grid-column-start: 3;
         grid-row-start: 5;
         grid-row-end: 4;
-        height: 180px;
+        height: 165px;
     }
 
 
