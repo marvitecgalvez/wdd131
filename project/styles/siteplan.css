@@ -1,4 +1,4 @@
-.root {
+:root {
     --color1: #ffba08;
     --color2: #faa307;
     --color3: #f48c06;
@@ -9,7 +9,48 @@
     --color8: #6a040f;
     --color9: #370617;
     --color10: #03071e;
+    --font1: Overpass;
+    --font2: Quicksand;
+    --font3: Playwrite PE;
 }
 
 /*https://coolors.co/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08*/
 
+body {
+    margin: 0;
+    width: 100%;
+}
+
+h1 {
+    font-family: var(--font1);
+    color: var(--color8);
+    padding: 1rem;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 200px auto 1fr;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+}
+
+header picture {
+    display: block;
+    grid-column-start: 2;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+a {
+    display: block;
+    padding: 15px;
+    font-family: var(--font2);
+    font-size: large;
+    text-decoration: none;
+    color: var(--color7);
+}
