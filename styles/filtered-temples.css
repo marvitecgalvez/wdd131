@@ -8,7 +8,7 @@
 }
 
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     width: 100%;
 }
@@ -22,8 +22,11 @@ h2 {
 }
 
 h3 {
-    text-align: center;
+    color: var(--fourth-color);
     padding: 1rem;
+    text-align: center;
+    width: 200px;
+
 }
 
 figcaption, p, a {
@@ -104,7 +107,8 @@ nav a {
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 25px;
-    place-items: center;
+    /*place-items: center;*/
+    align-self: ;
     padding: 1rem;
 }
 
@@ -112,6 +116,10 @@ section {
     width: auto;
     height: 100%;
     box-sizing: content-box;
+    /*align-items: center;*/
+    /*justify-items: center;*/
+    align-content: center;
+
     border: 1px solid var(--primary-color);
     background-color: var(--secundary-color);
     border-radius: 10px;
@@ -119,9 +127,13 @@ section {
         padding: 0.05rem;
     }
     img {
-        aspect-ratio: 9 / 6;
+        aspect-ratio: auto;
     }
 
+}
+
+section p {
+    font-size: small;
 }
 
 #menu {
