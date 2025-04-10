@@ -83,6 +83,42 @@ const temples = [
         imageUrl:
         "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
         },
+    // Add more temple objects here...
+    {
+        templeName: "Lima Peru Los Olivos",
+        location: "San Martín de Porres, Lima, Perú",
+        dedicated: "2024, January, 14",
+        area: "47413",
+        imageUrl: "images/lima_peru_los_olivos_temple.webp",
+    },
+    {
+        templeName: "Guatemala City Guatemala",
+        location: "Guatemala City, Guatemala",
+        dedicated: "1984, December, 14",
+        area: "11610",
+        imageUrl: "images/guatemala_city_guatemala_temple.webp",
+    },
+    {
+        templeName: "Edmonton Alberta",
+        location: "Edmonton, Alberta, Canada",
+        dedicated: "1999, December, 11",
+        area: "10700",
+        imageUrl: "images/edmonton_alberta_temple.webp",
+    },
+    {
+        templeName: "Santiago Chile",
+        location: "Santiago, Region Metropolitana, Santiago, Chile",
+        dedicated: "1983, September, 15",
+        area: "20831",
+        imageUrl: "images/santiago_chile_temple.webp",
+    },
+    {
+        templeName: "Rome Italy Temple",
+        location: "Rome, RM, Italy",
+        dedicated: "2019, March, 10",
+        area: "41010",
+        imageUrl: "images/rome_italy_temple.webp",
+    },
   ];
 
 
