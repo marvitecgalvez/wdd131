@@ -13,12 +13,17 @@
     width: 100%;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: var(--font1);
 }
 
 h2 {
     text-align: center;
+}
+
+h3 {
+    text-align: center;
+    padding: 1rem;
 }
 
 figcaption, p, a {
@@ -101,6 +106,22 @@ nav a {
     grid-gap: 25px;
     place-items: center;
     padding: 1rem;
+}
+
+section {
+    width: auto;
+    height: 100%;
+    box-sizing: content-box;
+    border: 1px solid var(--primary-color);
+    background-color: var(--secundary-color);
+    border-radius: 10px;
+    p {
+        padding: 0.05rem;
+    }
+    img {
+        aspect-ratio: 9 / 6;
+    }
+
 }
 
 #menu {

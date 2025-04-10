@@ -1,0 +1,29 @@
+@media (min-width: 640px) {
+    .princ {
+
+        color: var(--color1);
+        display: flex;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+    
+
+    #menu {
+        display: none;
+    }
+
+
+}
