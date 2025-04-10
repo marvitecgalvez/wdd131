@@ -29,7 +29,7 @@ h3 {
     width: 200px;
 }
 
-figcaption, p, a {
+p, a {
     font-family: var(--font2);
     text-align: center;
 }
@@ -123,15 +123,14 @@ section {
     border: 1px solid var(--primary-color);
     background-color: var(--secundary-color);
     border-radius: 10px;
-
-    img {
-        aspect-ratio: auto;
-    }
-
 }
 
 section p {
     font-size: small;
+}
+
+section img {
+    aspect-ratio: auto;
 }
 
 #menu {
