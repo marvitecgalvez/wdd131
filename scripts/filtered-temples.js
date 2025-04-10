@@ -85,28 +85,28 @@ const temples = [
     },
     // Add more temple objects here...
     {
-        templeName: "Lima Peru Los Olivos Temple",
+        templeName: "Lima Peru Los Olivos",
         location: "San Martín de Porres, Lima, Perú",
         dedicated: "2024, January, 14",
         area: "47413",
         imageUrl: "https://www.churchofjesuschrist.org/imgs/3f3327a93b9f11eeb2f0eeeeac1e45f6554046d6/full/640%2C/0/default",
     },
     {
-        templeName: "Guatemala City Guatemala Temple",
+        templeName: "Guatemala City Guatemala",
         location: "Guatemala City, Guatemala",
         dedicated: "1984, December, 14",
         area: "11610",
         imageUrl: "https://www.churchofjesuschrist.org/imgs/4ff985daa77b7f309360c884660244a965f9e8a4/full/640%2C/0/default",
     },
     {
-        templeName: "Edmonton Alberta Temple",
+        templeName: "Edmonton Alberta",
         location: "Edmonton, Alberta, Canada",
         dedicated: "1999, December, 11",
         area: "10700",
         imageUrl: "https://www.churchofjesuschrist.org/imgs/eed1439015e47d43916bc7c9701d9c32e71c67cc/full/640%2C/0/default",
     },
     {
-        templeName: "Santiago Chile Temple",
+        templeName: "Santiago Chile",
         location: "Santiago, Region Metropolitana, Santiago, Chile",
         dedicated: "1983, September, 15",
         area: "20831",
