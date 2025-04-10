@@ -167,6 +167,7 @@ function createCard(filteredTemples) {
         area.innerHTML = `<span class="label">Size: </span> ${temple.area}`;
         img.setAttribute("src", temple.imageUrl);
         img.setAttribute("alt", temple.templeName)
+        img.setAttribute("width", "200")
         img.setAttribute("loadinng", "lazy");
 
         card.appendChild(name);
