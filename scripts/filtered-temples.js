@@ -28,97 +28,61 @@ lastModified.innerHTML = document.lastModified;
 
 const temples = [
     {
-      templeName: "Aba Nigeria",
-      location: "Aba, Nigeria",
-      dedicated: "2005, August, 7",
-      area: 11500,
-      imageUrl:
-      "images/aba-nigeria-temple.jpg"
-    },
-    {
-      templeName: "Manti Utah",
-      location: "Manti, Utah, United States",
-      dedicated: "1888, May, 21",
-      area: 74792,
-      imageUrl:
-      "images/manti-temple.jpg"
-    },
-    {
-      templeName: "Payson Utah",
-      location: "Payson, Utah, United States",
-      dedicated: "2015, June, 7",
-      area: 96630,
-      imageUrl:
-      "images/payson-utah-temple.jpg"
-    },
-    {
-      templeName: "Yigo Guam",
-      location: "Yigo, Guam",
-      dedicated: "2020, May, 2",
-      area: 6861,
-      imageUrl:
-      "images/yigo_guam_temple.webp"
-    },
-    {
-      templeName: "Washington D.C.",
-      location: "Kensington, Maryland, United States",
-      dedicated: "1974, November, 19",
-      area: 156558,
-      imageUrl:
-      "images/washington_dc_temple.jpeg"
-    },
-    {
-      templeName: "Lima Perú",
-      location: "Lima, Perú",
-      dedicated: "1986, January, 10",
-      area: 9600,
-      imageUrl:
-      "images/lima_peru_temple.webp"
-    },
-    {
-      templeName: "Mexico City Mexico",
-      location: "Mexico City, Mexico",
-      dedicated: "1983, December, 2",
-      area: 116642,
-      imageUrl:
-      "images/mexico-city-temple.jpg"
-    },
-    // Add more temple objects here...
-    {
-        templeName: "Lima Peru Los Olivos",
-        location: "San Martín de Porres, Lima, Perú",
-        dedicated: "2024, January, 14",
-        area: "47413",
-        imageUrl: "https://www.churchofjesuschrist.org/imgs/3f3327a93b9f11eeb2f0eeeeac1e45f6554046d6/full/640%2C/0/default",
-    },
-    {
-        templeName: "Guatemala City Guatemala",
-        location: "Guatemala City, Guatemala",
-        dedicated: "1984, December, 14",
-        area: "11610",
-        imageUrl: "https://www.churchofjesuschrist.org/imgs/4ff985daa77b7f309360c884660244a965f9e8a4/full/640%2C/0/default",
-    },
-    {
-        templeName: "Edmonton Alberta",
-        location: "Edmonton, Alberta, Canada",
-        dedicated: "1999, December, 11",
-        area: "10700",
-        imageUrl: "https://www.churchofjesuschrist.org/imgs/eed1439015e47d43916bc7c9701d9c32e71c67cc/full/640%2C/0/default",
-    },
-    {
-        templeName: "Santiago Chile",
-        location: "Santiago, Region Metropolitana, Santiago, Chile",
-        dedicated: "1983, September, 15",
-        area: "20831",
-        imageUrl: "https://www.churchofjesuschrist.org/imgs/b6becb4ca0c60a52ad5dc57a90ec69fe5fe7ec63/full/640%2C/0/default",
-    },
-    {
-        templeName: "Rome Italy Temple",
-        location: "Rome, RM, Italy",
-        dedicated: "2019, March, 10",
-        area: "41010",
-        imageUrl: "https://www.churchofjesuschrist.org/imgs/17e2c70d687fffedfe115197e57fa8f5d1d369bb/full/640%2C/0/default",
-    },
+        templeName: "Aba Nigeria",
+        location: "Aba, Nigeria",
+        dedicated: "2005, August, 7",
+        area: 11500,
+        imageUrl:
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+        },
+        {
+        templeName: "Manti Utah",
+        location: "Manti, Utah, United States",
+        dedicated: "1888, May, 21",
+        area: 74792,
+        imageUrl:
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
+        },
+        {
+        templeName: "Payson Utah",
+        location: "Payson, Utah, United States",
+        dedicated: "2015, June, 7",
+        area: 96630,
+        imageUrl:
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
+        },
+        {
+        templeName: "Yigo Guam",
+        location: "Yigo, Guam",
+        dedicated: "2020, May, 2",
+        area: 6861,
+        imageUrl:
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
+        },
+        {
+        templeName: "Washington D.C.",
+        location: "Kensington, Maryland, United States",
+        dedicated: "1974, November, 19",
+        area: 156558,
+        imageUrl:
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
+        },
+        {
+        templeName: "Lima Perú",
+        location: "Lima, Perú",
+        dedicated: "1986, January, 10",
+        area: 9600,
+        imageUrl:
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
+        },
+        {
+        templeName: "Mexico City Mexico",
+        location: "Mexico City, Mexico",
+        dedicated: "1983, December, 2",
+        area: 116642,
+        imageUrl:
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+        },
   ];
 
 
