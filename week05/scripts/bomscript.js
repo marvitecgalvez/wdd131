@@ -2,7 +2,9 @@ const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
 const list = document.querySelector('#list');
 
-
+function getChapterList() {
+    return JSON.parse(localStorage.getItem('myFavBOMList'));
+};
 
 let chaptersArray = getChapterList();
 
@@ -36,9 +38,7 @@ function setChapterList() {
     localStorage.setItem('myFavBOMList', JSON.stringify(chaptersArray));
 };
 
-function getChapterList() {
-    return JSON.parse(localStorage.getItem('myFavBOMList'));
-};
+
 
 function deleteChapter(chapter) {
     chapter = chapter.slice(0, chapter.length - 1);
