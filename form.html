@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review - Marvin M. Gálvez</title>
+    <meta name="description" content="This is a Product Review Layout page">
+    <meta name="author" content="Marvin M. Gálvez">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+
+    </header>
+    <main>
+        <form method="get" action="review.html">
+            <fieldset>
+                <label>Product name*
+                    <select name="subject" id="product" required>
+                        <option value="" disabled selected>Select a Product...</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>Overall Rating*</label>
+                <section class="rating">
+                    <input type="radio" id="levelRating5" name="rating" required><label for="levelRating5"></label>
+                    <input type="radio" id="levelRating4" name="rating" required><label for="levelRating4"></label>
+                    <input type="radio" id="levelRating3" name="rating" required><label for="levelRating3"></label>
+                    <input type="radio" id="levelRating2" name="rating" required><label for="levelRating2"></label>
+                    <input type="radio" id="levelRating1" name="rating" required><label for="levelRating1"></label>
+                </section>    
+            </fieldset>
+            <fieldset>
+                <label>Date of Installation*
+                    <input type="date" id="date" name="installDate" required>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label></label>
+            </fieldset>
+        </form>
+
+    </main>
+    <footer>
+        <p>©️<span id="currentyear"></span> 💎 Marvin Gálvez 💎 Perú</p>
+        <p class="resalt">Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

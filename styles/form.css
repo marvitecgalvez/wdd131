@@ -1,0 +1,92 @@
+:root {
+    --primary-color: #022b3a;
+    --secundary-color: #1f7a8c ;
+    --third-color: #bfdbf7;
+    --fourth-color: #fdf364;
+    --font1: 'Roboto';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: var(--font1);
+}
+
+header {
+    background: var(--primary-color);
+    color: var(--third-color);
+}
+
+main {
+    width: 500px;
+    margin: 0 auto;
+}
+
+form {
+    background: var(--third-color);
+    margin: 1rem;
+}
+
+fieldset {
+    padding: 1rem;
+    border: none;
+}
+
+h1 {
+    align-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+input, select {
+    font-size: large;
+}
+
+.rating {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: left;
+}
+
+.rating > label {
+
+	width: 30px;
+	height: 30px;
+	font-size: 2rem;
+    padding-inline: 1.5rem;
+    justify-content: space-around;
+	display: flex;
+	align-items: center;
+
+}
+
+.rating > label::before {
+	content: "🖤";
+}
+
+.rating input:checked ~ label::before {
+	content: "💝";
+}
+
+.rating input {
+    display: none;
+}
+
+
+p {
+    color: var(--third-color);
+}
+
+
+
+footer {
+    background-color: var(--primary-color);
+    padding: 1rem 0;
+    text-align: center;
+}
+
+span {
+    color: var(--fourth-color);
+}
