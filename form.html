@@ -22,28 +22,44 @@
             <fieldset>
                 <label>Product name*
                     <select name="subject" id="product" required>
-                        <option value="" disabled selected>Select a Product...</option>
+                        <option value="" disabled selected tabindex="0">Select a Product...</option>
                     </select>
                 </label>
             </fieldset>
             <fieldset>
                 <label>Overall Rating*</label>
-                <section class="rating">
-                    <input type="radio" id="levelRating5" name="rating" required><label for="levelRating5"></label>
-                    <input type="radio" id="levelRating4" name="rating" required><label for="levelRating4"></label>
-                    <input type="radio" id="levelRating3" name="rating" required><label for="levelRating3"></label>
-                    <input type="radio" id="levelRating2" name="rating" required><label for="levelRating2"></label>
-                    <input type="radio" id="levelRating1" name="rating" required><label for="levelRating1"></label>
-                </section>    
+                    <section class="rating">
+                        <input type="radio" id="levelRating5" name="rating" required><label for="levelRating5"></label>
+                        <input type="radio" id="levelRating4" name="rating" required><label for="levelRating4"></label>
+                        <input type="radio" id="levelRating3" name="rating" required><label for="levelRating3"></label>
+                        <input type="radio" id="levelRating2" name="rating" required><label for="levelRating2"></label>
+                        <input type="radio" id="levelRating1" name="rating" required><label for="levelRating1"></label>
+                    </section>
             </fieldset>
             <fieldset>
                 <label>Date of Installation*
                     <input type="date" id="date" name="installDate" required>
                 </label>
             </fieldset>
-            <fieldset>
-                <label></label>
+            <fieldset class="check">
+                <label>Which features did you find useful in the product? <span class="cursive">(Check all that apply)</span></label>
+                <section>
+                    <input type="checkbox" id="durability" name="durability" value="task"><label for="durability">Durability</label>
+                    <input type="checkbox" id="easeOfUse" name="easeOfUse" value="task"><label for="easeOfUse">Ease of Use</label>
+                    <input type="checkbox" id="performance" name="performance" value="task"><label for="performance">Performance</label>
+                    <input type="checkbox" id="design" name="design" value="task"><label for="design">Design</label>
+                </section>
             </fieldset>
+            <fieldset>
+                <label>Written Review <span class="cursive">(Optional)</span><textarea id="userReview" name="userReview" rows="5"></textarea></label>
+            </fieldset>
+            <fieldset>
+                <label>Your Name <span class="cursive">(Optional)</span><input type="text" id="userName" name="userName"></label>
+            </fieldset>
+            <fieldset>
+                <input class="button" type="submit" value="Post Review">
+            </fieldset>
+            
         </form>
 
     </main>

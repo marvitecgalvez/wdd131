@@ -14,13 +14,19 @@
     font-family: var(--font1);
 }
 
+.cursive {
+    color: rgb(1, 33, 214);
+    font-style: italic;
+}
+
 header {
     background: var(--primary-color);
     color: var(--third-color);
 }
 
 main {
-    width: 500px;
+    box-sizing: border-box;
+    max-width: 400px;
     margin: 0 auto;
 }
 
@@ -30,7 +36,8 @@ form {
 }
 
 fieldset {
-    padding: 1rem;
+    box-sizing: border-box;
+    padding: 0.6rem 1rem;
     border: none;
 }
 
@@ -51,15 +58,13 @@ input, select {
 }
 
 .rating > label {
-
-	width: 30px;
-	height: 30px;
+    box-sizing: border-box;
+	height: 35px;
 	font-size: 2rem;
-    padding-inline: 1.5rem;
-    justify-content: space-around;
+    padding: 0 0.1rem 0 1rem;
+    justify-content: space-between;
 	display: flex;
 	align-items: center;
-
 }
 
 .rating > label::before {
@@ -75,11 +80,47 @@ input, select {
 }
 
 
+
+.check section {
+    display: grid;
+    width: 0;
+    padding: 1rem 0;
+}
+
+.check section label {
+    display: grid;
+    grid-column-start: 2;
+    padding-top: 0.3rem;
+}
+
+input[type=checkbox] {
+    width: 40px;
+    padding: 1rem ;
+}
+
+.check section input {
+    width: 30px;
+    height: 20px;
+    padding: 1rem;
+    margin: 0.3rem 0;
+}
+
 p {
     color: var(--third-color);
 }
 
+.button {
+    height: auto;
+    background: var(--primary-color);
+    color: var(--third-color);
+    font-size: x-large;
+    padding: 0.5rem;
+}
 
+.button:hover {
+    background: var(--fourth-color);
+    color: var(--primary-color);
+}
 
 footer {
     background-color: var(--primary-color);
@@ -89,4 +130,31 @@ footer {
 
 span {
     color: var(--fourth-color);
+}
+
+.counter {
+    font-size: x-large;
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 650px) {
+    * {
+        font-size: x-large;
+    }
+
+
+
+    input, select {
+        font-size: xx-large;
+    }
+
+    .rating > label {
+        box-sizing: border-box;
+        padding-top: 0.5rem;
+        height: 35px;
+        font-size: 1rem;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
 }
