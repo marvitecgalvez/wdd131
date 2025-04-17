@@ -20,6 +20,10 @@
     margin: 0 auto;
 }
 
+nav a {
+    font-family: var(--font3);
+}
+
 body {
     margin: 0;
     width: 100%;
