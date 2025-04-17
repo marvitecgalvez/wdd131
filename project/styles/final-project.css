@@ -121,6 +121,12 @@ li {
     
 }
 
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: ;
+}
+
 footer {
     background-color: var(--color1);
     padding: 1rem;
