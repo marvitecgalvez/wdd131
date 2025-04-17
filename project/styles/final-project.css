@@ -46,7 +46,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 200px auto 1fr;
     align-items: center;
-    align-self: center;
+
     width: 100%;
 }
 
@@ -67,6 +67,9 @@ main {
 
 article {
     padding: 1rem;
+    align-content: center;
+    align-items: center;
+
 }
 
 a {
@@ -95,15 +98,19 @@ li {
 }
 
 .artEscen {
-    max-width: 700px;
+    max-width:1300px;
     box-sizing: border-box;
-    margin-left: 5rem;
-    margin-top: 1rem;
+    margin: 1rem auto 1rem 6rem;
     border: 3px solid var(--color10);
+    border-radius: 35px;
+    
+    display: flex;
+    
 }
 
 .escenRight {
-    margin: 0 5rem 0 auto;
+    margin: 1rem 6rem 1rem auto;
+    
 }
 
 footer {

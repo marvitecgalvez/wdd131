@@ -1,0 +1,58 @@
+:root {
+    --color1: #ffba08;
+    --color2: #faa307;
+    --color3: #f48c06;
+    --color4: #e85d04;
+    --color5: #dc2f02;
+    --color6: #d00000;
+    --color7: #9d0208;
+    --color8: #6a040f;
+    --color9: #370617;
+    --color10: #03071e;
+    --font1: Overpass;
+    --font2: Quicksand;
+    --font3: Playwrite PE;
+}
+
+* {
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--color1);
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    background: rgba(255, 186, 8, 0.7);
+}
+
+h1 {
+    font-family: var(--font1);
+    color: var(--color9);
+    font-size: xxx-large;
+    padding: 1rem;
+    text-align: center;
+}
+
+h2 {
+    font-family: var(--font1);
+    padding: 1rem;
+}
+
+p {
+    font-family: var(--font2);
+}
+
+article {
+    box-sizing: border-box;
+    border: 2px solid var(--color8);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.6);
+    color: var(--color10);
+    
+    
+}
