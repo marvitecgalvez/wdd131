@@ -16,6 +16,10 @@
 
 /*https://coolors.co/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08*/
 
+* {
+    margin: 0 auto;
+}
+
 body {
     margin: 0;
     width: 100%;
@@ -24,7 +28,14 @@ body {
 h1 {
     font-family: var(--font1);
     color: var(--color8);
+    font-size: xxx-large;
     padding: 1rem;
+    text-align: center;
+}
+
+h2 {
+    font-family: var(--font1);
+    padding: 1rem 1rem 0;
 }
 
 header {
@@ -46,6 +57,14 @@ header nav {
 
 }
 
+main {
+
+}
+
+article {
+    padding: 1rem;
+}
+
 a {
     display: block;
     padding: 15px;
@@ -53,4 +72,36 @@ a {
     font-size: large;
     text-decoration: none;
     color: var(--color7);
+}
+
+p {
+    font-family: var(--font2);
+    font-size: larger;
+    padding: 1rem;
+}
+
+li {
+    box-sizing: border-box;
+    font-size: larger;
+}
+
+.artDesc {
+    max-width: 700px;
+    box-sizing: border-box;
+}
+
+.artEscen {
+    max-width: 700px;
+    box-sizing: border-box;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    border: 3px solid var(--color10);
+}
+
+.escenRight {
+    margin: 0 5rem 0 auto;
+}
+
+footer {
+    background: pink;
 }

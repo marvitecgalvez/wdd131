@@ -14,7 +14,14 @@ currentyear.innerHTML = `${today.getFullYear()}`;
 
 lastModified.innerHTML = document.lastModified;
 
+let showned = document.getElementById("showned")
+let product = {'id':'455689A','price':23.99,'cost':15,'shelfDate':'10/01/2024'}
+let itemcost = product.cost();
+function show(itemcost) {
+  showned.value = itemcost;
+}
 
+show(itemcost)
 
 const products = [
     {
