@@ -39,22 +39,39 @@
             <form action="submit" class="form">
                 <fieldset>
                     <label for="userName">Your Name*: <input type="text" id="userName" name="userName" required></label>
-                    <label for="email">E-mail: <input type="text" id="email" name="email"></label>
+                    <label for="email">E-mail: <input type="text" id="userEmail" name="userEmail"></label>
                 </fieldset>
                 <fieldset>
-                    <label></label>
+                    <label for="userDanceName">Dance Name*: <input type="text" id="userDanceName" required></label>
+                    <label for="userRegion">Select Region*: 
+                        <select id="userRegion" name="userRegion" required>
+                            <option value="" disabled selected>Select a Region:</option>
+                            <option value="Jungle">Jungle</option>
+                            <option value="Mountains">Mountains</option>
+                            <option value="Coast">Coast</option>
+                        </select>
+                    </label>
                 </fieldset>
                 <fieldset>
-                    <label></label>
+                    <label for="userTheme">Theme*: </label>
+                    <div class="radio">
+                        <input type="radio" id="ritual" name="Ritual" required><label for="ritual">Ritual</label>
+                        <input type="radio" id="mocking" name="mocking" required><label for="mocking">Mocking</label>
+                        <input type="radio" id="celebration" name="celebration" required><label for="celebration">Celebration</label>
+                        <input type="radio" id="spiritual" name="spiritual" required><label for="spiritual">Spiritual</label>
+                        <input type="radio" id="collaborative" name="collaborative" required><label for="collaborative">Collaborative</label>
+                        <input type="radio" id="couples" name="couples" required><label for="couples">Couples</label>
+                    </div>
                 </fieldset>
                 <fieldset>
-                    <label></label>
+                    <label>Description*: </label>
+                    <textarea id="userDescription" name="userDescription" rows="6" required></textarea>
                 </fieldset>
                 <fieldset>
-                    <label></label>
+                    <label>Dance Picture:</label>
                 </fieldset>
                 <fieldset>
-                    <label></label>
+                    <input type="submit" value="Review Your Dance!">
                 </fieldset>
 
             </form>
