@@ -54,4 +54,4 @@ let danceDataBase = [
         image: "images/"
     },
 
-]
+];

@@ -19,24 +19,21 @@
             <img src="images/perufolklogo.svg" alt="PeruFolk Logo" width="150">
         </picture>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Regions</a>
-            <a href="#">Dances</a>
-            <a href="#">Themes</a>
-            <a href="#">Contact Us</a>
+            <a href="final-project.html">Home</a>
+            <a href="regions.html">Regions</a>
+            <a href="dances.html">Dances</a>
+            <a href="themes.html">Themes</a>
+            <a href="contact-us.html">Contact Us</a>
         </nav>
     </header>
     <main>
         <h1>Peru Folk Map</h1>
-        <article class="artDescipt">
-            <p>Here you'll find reviews of each traditional dance,
-                along with its stage performance,
-                location, and region of origin.<br>
-                Find them by name, dance theme, and region.
-                You are able to submit reviews of dances not yet included on the website!</p>
+        <article class="artDescript">
+            <p>Send Us Your Own Dance Description!<br>
+                We could create a New Review about your Favorite Peruvian Dance!<br>
         </article>
-        <article class="artEscen">
-            <form action="submit" class="form">
+        <article class="artForm">
+            <form method="get" action="thanks.html" class="form">
                 <fieldset>
                     <label for="userName">Your Name*: <input type="text" id="userName" name="userName" required></label>
                     <label for="email">E-mail: <input type="text" id="userEmail" name="userEmail"></label>
@@ -55,44 +52,34 @@
                 <fieldset>
                     <label for="userTheme">Theme*: </label>
                     <div class="radio">
-                        <input type="radio" id="ritual" name="Ritual" required><label for="ritual">Ritual</label>
-                        <input type="radio" id="mocking" name="mocking" required><label for="mocking">Mocking</label>
-                        <input type="radio" id="celebration" name="celebration" required><label for="celebration">Celebration</label>
-                        <input type="radio" id="spiritual" name="spiritual" required><label for="spiritual">Spiritual</label>
-                        <input type="radio" id="collaborative" name="collaborative" required><label for="collaborative">Collaborative</label>
-                        <input type="radio" id="couples" name="couples" required><label for="couples">Couples</label>
+                        <div>
+                            <input type="radio" id="ritual" name="theme" required><label for="ritual">Ritual</label>
+                        </div>
+                        <div>  
+                            <input type="radio" id="mocking" name="theme" required><label for="mocking">Mocking</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="celebration" name="theme" required><label for="celebration">Celebration</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="spiritual" name="theme" required><label for="spiritual">Spiritual</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="collaborative" name="theme" required><label for="collaborative">Collaborative</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="couples" name="theme" required><label for="couples">Couples</label>
+                    
                     </div>
                 </fieldset>
                 <fieldset>
                     <label>Description*: </label>
                     <textarea id="userDescription" name="userDescription" rows="6" required></textarea>
-                </fieldset>
-                <fieldset>
-                    <label>Dance Picture:</label>
-                </fieldset>
-                <fieldset>
+
                     <input type="submit" value="Review Your Dance!">
                 </fieldset>
-
             </form>
         </article>
-        <article class="artEscen escenRight">
-            <picture>
-                <img src="images/Anaconda.webp" alt="Scissors dancer" width="550">
-            </picture>
-            <div>
-                <h2>Where can I see Live Dance Performances?</h2>
-                <p>Find live performances in this list of Cultural Event Halls:</p>
-                <ul>
-                    <li><a href="https://lacandelariaperu.com/">La Candelaria Centro Cultural</a></li>
-                    <li><a href="https://brisasdeltiticaca.com.pe/">Brisas del Titicaca</a></li>
-                    <li><a href="https://www.tripadvisor.com.pe/Attractions-g294316-Activities-c58-t111-Lima_Lima_Region.html">Tours at Lima</a></li>
-                </ul>
-            </div>
-
-            
-        </article>
-
     </main>
     <footer>
         <p>©️<span id="currentyear"></span> 💎 Marvin M. Gálvez 💎 Perú</p>
