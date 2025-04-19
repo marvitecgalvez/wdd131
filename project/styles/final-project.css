@@ -144,6 +144,25 @@ li {
     padding: 1rem;
 }
 
+.regions {
+    display: flex;
+    box-sizing: border-box;
+    align-content: space-around;
+    article {
+
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 25px;
+        place-items: center;
+        padding: 1rem;
+        
+        
+    }
+    img {
+        width: 250px;
+    }
+}
+
 fieldset {
     width: 90%;
     padding: 1rem;
