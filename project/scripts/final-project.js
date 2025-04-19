@@ -68,7 +68,6 @@ const contradanza = document.querySelector("#contra");
 const festejo = document.querySelector("#fest");
 
 
-const back = document.getElementById("back");
 
 
 marinera.addEventListener("click", () => {
@@ -96,12 +95,6 @@ festejo.addEventListener("click", () => {
 });
 
 
-
-/*
-back.addEventListener("click", () => {
-    document.querySelector(".container").innerHTML = "";
-});
-*/
 
 
 function createCard(choosedDance) {
