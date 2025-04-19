@@ -116,6 +116,10 @@ li {
     
 }
 
+.dances {
+    margin: 1rem auto;
+}
+
 .artForm {
     max-width:550px;
     min-width: 550px;
