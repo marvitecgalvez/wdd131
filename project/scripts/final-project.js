@@ -164,5 +164,8 @@ function setDanceReview() {
     localStorage.setItem('snuDescription', JSON.stringify(nuDescription));
 };
 
-/*
-createCard(danceDataBase);*/
+let buttonClicked = document.getElementById("reviewButton");
+
+buttonClicked.addEventListener("click", () => {
+    setDanceReview();
+});
