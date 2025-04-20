@@ -68,30 +68,37 @@ const contradanza = document.querySelector("#contra");
 const festejo = document.querySelector("#fest");
 
 
+let showOcultElement = document.getElementById("goBackOpt");
 
 
 marinera.addEventListener("click", () => {
-    createCard(danceDataBase.filter(selectedDance => selectedDance.danceName == "Marinera"));
+        createCard(danceDataBase.filter(selectedDance => selectedDance.danceName == "Marinera"));
+        showOcultElement.classList.remove("ocult");
 });
 
 scissorsDance.addEventListener("click", () => {
     createCard(danceDataBase.filter(selectedDance => selectedDance.danceName == "Scissors Dance"));
+    showOcultElement.classList.remove("ocult");
 });
 
 anacondaDance.addEventListener("click", () => {
     createCard(danceDataBase.filter(selectedDance => selectedDance.danceName == "Anaconda Dance"));
+    showOcultElement.classList.remove("ocult");
 });
 
 diablada.addEventListener("click", () => {
     createCard(danceDataBase.filter(selectedDance => selectedDance.danceName == "The Diablada from Puno"));
+    showOcultElement.classList.remove("ocult");
 });
 
 contradanza.addEventListener("click", () => {
     createCard(danceDataBase.filter(selectedDance => selectedDance.danceName == "Contradanza"));
+    showOcultElement.classList.remove("ocult");
 });
 
 festejo.addEventListener("click", () => {
     createCard(danceDataBase.filter(selectedDance => selectedDance.danceName == "Festejo"));
+    showOcultElement.classList.remove("ocult");
 });
 
 
