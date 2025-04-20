@@ -128,7 +128,41 @@ function createCard(choosedDance) {
     }
 
     )
-}
+};
+
+
+/////////////////////////////////////////////////////////   FORM    ///////////////////////////////////////
+
+function setDanceReview() {
+
+    let uName = document.getElementById("userName");
+    let uEmail = document.getElementById("userEmail");
+    let uDanceName = document.getElementById("userDanceName");
+    let uRegion = document.getElementById("userRegion");
+    let uTheme = document.querySelector('input[name="theme"]:checked').value; ///change to getElementByName
+    let uDescription = document.getElementById("userDescription");
+
+    let nuName = "";
+    let nuEmail = "";
+    let nuDanceName = "";
+    let nuRegion = "";
+    let nuTheme = "";
+    let nuDescription = "";
+
+    nuName.push(uName);
+    nuEmail.push(uEmail);
+    nuDanceName.push(uDanceName);
+    nuRegion.push(uRegion);
+    nuTheme.push(uTheme);
+    nuDescription.push(uDescription);
+
+    localStorage.setItem('snuName', JSON.stringify(nuName));
+    localStorage.setItem('snuEmail', JSON.stringify(nuEmail));
+    localStorage.setItem('snuDanceName', JSON.stringify(nuDanceName));
+    localStorage.setItem('snuRegion', JSON.stringify(nuRegion));
+    localStorage.setItem('snuTheme', JSON.stringify(nuTheme));
+    localStorage.setItem('snuDescription', JSON.stringify(nuDescription));
+};
 
 /*
 createCard(danceDataBase);*/
